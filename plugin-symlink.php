@@ -2,8 +2,7 @@
   /*                                                                                                                    
 Plugin Name: Plugin Symlink                                                                                             
 Plugin URI: http://github.com/liggitt/wordpress-plugin-symlink                                                          
-Description: Allows a symlinked folder to be used as the plugins folder. Install directly in the plugins folder or in a\
- subdirectory named 'plugin-symlink', so the path can be detected correctly.                                            
+Description: Allows a symlinked folder to be used as the plugins folder. Install directly in the plugins folder or in a subdirectory named 'plugin-symlink', so the path can be detected correctly.
 Version: 1.0                                                                                                            
 Author: Jordan Liggitt                                                                                                  
 Author URI: http://jordan.liggitt.net                                                                                   
