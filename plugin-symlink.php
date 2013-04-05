@@ -12,7 +12,7 @@ License: GPL2
 function liggitt_filter_plugins_url($url) {
   $path = dirname(__FILE__);
   $basename = basename($path);
-  if ($basename == "plugin-symlink" || $basename == "wordpress-plugin-symlink") {
+  if (preg_match('/plugin-symlink$/', $basename)) {
     $path = dirname($path);
   }
   $newurl = str_replace($path, "", $url);
