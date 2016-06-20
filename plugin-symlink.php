@@ -19,4 +19,4 @@ function liggitt_filter_plugins_url($url) {
   return $newurl;
 }
 
-add_filter('plugins_url', liggitt_filter_plugins_url);
+add_filter('plugins_url', 'liggitt_filter_plugins_url');
